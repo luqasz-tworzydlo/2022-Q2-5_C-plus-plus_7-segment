@@ -1,0 +1,62 @@
+﻿// C++ code
+
+void setup()
+{
+	pinMode(4, OUTPUT);//we1
+	pinMode(5, OUTPUT);//we2
+	pinMode(6, OUTPUT);//we3
+	pinMode(7, OUTPUT);//we4
+}
+void loop()
+{
+	digitalWrite(4, LOW); // cyfra 0
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, HIGH); // cyfra 1
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, LOW); // cyfra 2
+	digitalWrite(5, HIGH);
+	digitalWrite(6, LOW);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, HIGH); // cyfra 3
+	digitalWrite(5, HIGH);
+	digitalWrite(6, LOW);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, LOW); // cyfra 4
+	digitalWrite(5, LOW);
+	digitalWrite(6, HIGH);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, HIGH); // cyfra 5
+	digitalWrite(5, LOW);
+	digitalWrite(6, HIGH);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, LOW); // cyfra 6
+	digitalWrite(5, HIGH);
+	digitalWrite(6, HIGH);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, HIGH); // cyfra 7
+	digitalWrite(5, HIGH);
+	digitalWrite(6, HIGH);
+	digitalWrite(7, LOW);
+	delay(1000);
+	digitalWrite(4, LOW); // cyfra 8
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	digitalWrite(7, HIGH);
+	delay(1000);
+	digitalWrite(4, HIGH); // cyfra 9
+	digitalWrite(5, LOW);
+	digitalWrite(6, LOW);
+	digitalWrite(7, HIGH);
+	delay(1000);
+}
